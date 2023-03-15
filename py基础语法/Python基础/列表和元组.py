@@ -53,3 +53,4 @@ print(copy1)  # ['你好', [3, 'world'], [12, 'abc']]
 a = list(range(1, 20, 3))
 print(a)
 print(a[:3])
+

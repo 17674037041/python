@@ -11,6 +11,7 @@
     1.4.当在子类中也定义_slots_时，子类就能定义本身及其父类身上允许的属性
 2.使用@property：
     2.1.@property-》get   函数名.setter-》set
+    2.2.CSDN博客地址：https://blog.csdn.net/qq_41961087/article/details/117172719?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167841842616800215033101%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167841842616800215033101&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-117172719-null-null.142^v73^insert_down3,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%40property&spm=1018.2226.3001.4187
 
 3.多重继承：
     3.1.Mixln：目的是给一个类增加多个功能，可以更好的看出继承关系

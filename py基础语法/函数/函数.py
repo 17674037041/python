@@ -96,6 +96,7 @@ def fact(n):
 
 print(fact(10))
 
+
 # 汉诺塔 请编写move(n, a, b, c)函数，它接收参数n，表示3个柱子A、B、C中第1个柱子A的盘子数量，
 # 然后打印出把所有盘子从A借助B移动到C的方法
 def move(n, a, b, c):
@@ -108,3 +109,10 @@ def move(n, a, b, c):
 
 
 move(6, 'A', 'B', 'C')
+
+
+def make_car(manufacturer, model, **args):
+    print(f"manufacturer is {manufacturer},model is {model},and {args}")
+
+
+car = make_car('subaru', 'outback', color = 'blue', tow_package = True)
